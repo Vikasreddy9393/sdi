@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 
 const PORT = 4000;
-const SECRET_KEY = "mysecret123";
+const SECRET_KEY = "mysecret23";
 
 
 // Fake users (no DB)
@@ -82,3 +82,4 @@ app.get("/dashboard", verifyToken, (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server Security running on port ${PORT}`);
 });
+
